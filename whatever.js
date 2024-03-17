@@ -26,7 +26,8 @@ function verifyScholarShip() {
                 }
 
                 if (ableScholarship) {
-                    console.log(`Congratulations ${name}, you can access to the scholarship!`);
+                    console.log(`Congratulations ${name}, you can access to the scholarship! 
+                    \n in the next days you will receive an email with the instructions. Good luck!`);
                 } else {
                     console.log("We are sorry. It is not possible for you to get the scholarship");
                 }
