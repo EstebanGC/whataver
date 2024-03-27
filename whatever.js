@@ -16,11 +16,13 @@ function verifyScholarShip() {
                 
                 //establecemos las condiciones para acceder a la beca,
                 if (age < 18 || age > 30) {
+                    //si la edad es menor de 18 y mayor de 30, lanza un error
                     console.error("You are not in the age range allowed to get the scholarship");
                     ableScholarship = false;
                 }
 
                 if (salary > 500) {
+                    //si el salario es mas de 500 dolares mensuales, lanza un error
                     console.error("You do not earn enough money to pay the rest of the cost");
                     ableScholarship = false;
                 }
